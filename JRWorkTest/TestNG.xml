@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<!--  <suite name="Test Suite" verbose="3" parallel = "tests"> -->
+<suite name="VerifyJGLogin">
+  
+  <test name="Test Cae 1" >
+  <parameter name="browser" value="snv"/> 
+    <classes>
+       <class name="com.jg.TestCases.VerifyJGLogin"/>
+       
+       <!--  <class name="com.selenium.testCase2"/>-->
+    </classes>
+  </test>
+    </suite>

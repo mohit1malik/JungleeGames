@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [VerifyJGLogin]">
+  <parameter name="browser" value="snv"/>
+  <test name="Test Cae 1(failed)">
+    <parameter name="browser" value="snv"/>
+    <classes>
+      <class name="com.jg.TestCases.VerifyJGLogin">
+        <methods>
+          <include name="verifyValidLoging"/>
+        </methods>
+      </class> <!-- com.jg.TestCases.VerifyJGLogin -->
+    </classes>
+  </test> <!-- Test Cae 1(failed) -->
+</suite> <!-- Failed suite [VerifyJGLogin] -->

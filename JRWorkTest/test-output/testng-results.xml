@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="VerifyJGLogin" duration-ms="27969" started-at="2017-02-08T06:37:08Z" finished-at="2017-02-08T06:37:36Z">
+    <groups>
+    </groups>
+    <test name="Test Cae 1" duration-ms="27969" started-at="2017-02-08T06:37:08Z" finished-at="2017-02-08T06:37:36Z">
+      <class name="com.jg.TestCases.VerifyJGLogin">
+        <test-method status="PASS" signature="verifyValidLoging()[pri:0, instance:com.jg.TestCases.VerifyJGLogin@1810399e]" name="verifyValidLoging" duration-ms="27951" started-at="2017-02-08T12:07:08Z" finished-at="2017-02-08T12:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLoging -->
+      </class> <!-- com.jg.TestCases.VerifyJGLogin -->
+    </test> <!-- Test Cae 1 -->
+  </suite> <!-- VerifyJGLogin -->
+</testng-results>
